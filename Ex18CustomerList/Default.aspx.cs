@@ -20,6 +20,8 @@ namespace Sol18CustomerList
         protected void grdCustomers_PreRender(object sender, EventArgs e)
         {
             grdCustomers.HeaderRow.TableSection = TableRowSection.TableHeader;
+            grdCustomers.HeaderRow.TableSection = TableRowSection.TableHeader;
+
         }
 
         public IQueryable<State> ddlState_GetData()
